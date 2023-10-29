@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import '../CSS/EditContact.css'; // Import your custom CSS file
+import '../CSS/EditContact.css'; 
 
 const EditContact = () => {
     const [name, setName] = useState('');
